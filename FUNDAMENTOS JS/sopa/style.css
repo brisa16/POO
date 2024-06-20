@@ -1,0 +1,17 @@
+.boton {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .activado {
+    background-color: green;
+  }
+
+  .desactivado {
+    background-color: red;
+  }
+
