@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 10px; /* Navbar */
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1050px;
+    min-width: 300px;
+    align-items: center; /* Navbar elementos alineados */
+}
+
+a {
+    color: white;
+    text-decoration: none; /* Quita subrayado */
+}
+
+.lista {
+    display: flex;
+    align-items: center; /* Alinea horizontal */
+}
+
+.lista h1 {
+    margin-right: 40px; /* Espacio a la derecha del título */
+}
+
+.lista li {
+    margin-left: 20px; /* Espacio entre items de lista */
+    list-style-type: none; /* Sin viñetas */
+}
+
+/* Botón de cerrar sesión */
+.sign-out-button {
+    background-color: #17a2b7;
+    color: white;
+    font-size: 18px; 
+}
+
+/* Contenedores de perfil */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 50px auto; /* Centra el contenedor */
+}
+
+/* Ajusta el ancho */
+.left-section,
+.right-section {
+    width: 45%; 
+}
+
+/* Tarjeta de usuario */
+.user-card {
+    border: 2px solid gray;
+    overflow: hidden;
+    margin-bottom: 20px; 
+    width: 350px;
+}
+
+/* Encabezado de tarjeta */
+.card-header {
+    background-color: #17a2b7;
+    height: 100px; 
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+/* Imagen de perfil */
+.avatar-m {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 30px; 
+}
+
+/* Iconos pequeños */
+.icon-s {
+    height: 20px; 
+}
+
+/* Caja de educación */
+.educ {
+    border: 2px solid gray;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 350px;    
+}
+
+.letras {
+    padding-left: 30px;
+}
+
+.letritas {
+    padding-left: 20px;
+}
+
+.letrotas {
+    padding-left: 7px;
+}
+
+h4 {
+    color: #8b8787;
+}
+
+/* Caja de conexiones */
+.connections-box {
+    border: 2px solid gray;
+    width: 210px;
+}
+
+/* Encabezado de conexión y educación */
+.connection-header,
+.educ-header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Ocupa todo el ancho */
+.connections-box,
+.educ {
+   position: relative;
+   padding-top: 0;
+}
+
+/* Número de conexiones */
+.connection-number-500 {
+   background-color: lightgray;
+   color: black;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 25px;
+}
+
+.connection-number-2 {
+   background-color: lightgray;
+   color: black;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 25px;
+   height: 25px;
+}
+
+/* Item de conexión */
+.connection-item {
+   display: flex;
+   align-items: flex-start;
+   margin-top: 10px;
+   width: 100%;
+}
+
+/* Imagen de usuario en conexiones */
+.user-image {  
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+   padding-left: 5px;
+}
+
+/* Iconos de acción */
+.action-icon { 
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;
+   margin-left: 27px;
+}
+
+/* Caja de "Your Connections" */
+.your-connections-box { 
+   margin-top: 30px;
+}
+
+/* Caja "View More" */
+.view-more-box { 
+   display: flex;
+   align-items: center;
+   padding-left: 20px;
+   width: 210px;
+}
+
+/* Enlaces "View More" y "Edit Profile" */
+.view-more-link,
+.edit-profile-link {  
+   color: #17a2b7;
+   font-weight: bold;
+}
